@@ -1,0 +1,8 @@
+baseURL = 'https://varo.cl/'
+languageCode = 'es-CL'
+defaultContentLanguage = 'es'
+title = 'Mi Blog'
+theme = 'PaperMod"
+
+[params]
+DateFormat = "2 de January de 2006"
