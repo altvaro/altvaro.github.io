@@ -1,0 +1,7 @@
+{{- /* Muestra los íconos sociales (params.socialIcons) al final del contenido
+     solo en las páginas que lo soliciten con showSocial = true en su front matter. */ -}}
+{{- if .Params.showSocial -}}
+<div class="post-content-social-icons">
+    {{ partial "social_icons.html" (dict "align" "center") }}
+</div>
+{{- end -}}

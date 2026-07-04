@@ -6,3 +6,17 @@ theme = 'PaperMod'
 
 [params]
 DateFormat = "2 de January de 2006"
+
+[[menu.main]]
+identifier = "acerca-de-mi"
+name = "Acerca de mí"
+url = "/acerca-de-mi/"
+weight = 10
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/altvaro"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://linkedin.com/in/altvaro"
