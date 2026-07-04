@@ -1,0 +1,29 @@
+# Hugo - salida generada del build (la crea GitHub Actions en CI)
+/public/
+resources/_gen/
+
+# Hugo - archivos de estado/lock generados automáticamente
+.hugo_build.lock
+.hugo_cache.lock
+
+# Hugo - estadísticas de build generadas con --enableGitInfo / render templates
+/assets/jsconfig.json
+hugo_stats.json
+
+# Dependencias de Node (si se agregan luego)
+/node_modules/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editores / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
